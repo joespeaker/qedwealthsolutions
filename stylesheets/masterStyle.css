@@ -2,7 +2,14 @@
 dark blue: #083E89
 light blue: #31B2D1
 warm white: #f7f3e6
+
+
+delete the div css below when complete
 */
+/* div{
+    border: red solid 1px;
+} */
+
 html, body{
     height: 100%;
     width: 100%;
@@ -28,4 +35,16 @@ html, body{
 }
 .nav-item{
     padding: 0 10px;
+}
+.ms-10{
+    margin-left: 100px !important;
+}
+@media screen and (max-width: 500px){
+    .ms-10{
+        margin-left: 0 !important;
+    }
+    .nav-logo{
+        height: 50px;
+        width: 188px;
+    }
 }

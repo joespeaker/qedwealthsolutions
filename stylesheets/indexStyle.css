@@ -1,6 +1,7 @@
 
 html,body {
     font-family: 'Ubuntu', sans-serif;
+    background-color: #E7F4FF;
 }
 .hero{
     background-color: #f7f3e6;
@@ -9,6 +10,7 @@ html,body {
     height: 82vh;
     background-size: cover;
     background-blend-mode: darken;
+    z-index: -1;
 }
 .hero-text{
     color: #083E89;
@@ -36,7 +38,39 @@ html,body {
     font-size: 50px;
     line-height: 100px;
 }
-.why-img{
-    height: auto;
+.why-img-container{
+    height: 500px;
+    width: 400px;
+    margin: auto;
+}
+.why-img-container img{
+    height: 100%;
     width: 100%;
+    object-fit: contain;
+    border-radius: 15%;
+}
+.why-us-text-container{
+    background-color: #E7F4FF;
+    margin: 50px;
+    font-size: large;
+}
+.whyUs{
+    background-color: #E7F4FF;
+    margin: 50px;
+    padding: 20px;
+}
+@media screen and (max-width: 500px){
+    .why-img-container{
+        height: 300px;
+        width: 250px;
+    }
+    .why-us-text-container{
+        margin: 0;
+    }
+    .whyUs{
+        margin: 0;
+    }
+}
+.bg-color {
+    background-color: #E7F4FF;
 }
