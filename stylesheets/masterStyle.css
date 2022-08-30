@@ -39,7 +39,10 @@ html, body{
 .ms-10{
     margin-left: 100px !important;
 }
-@media screen and (max-width: 500px){
+.me-10{
+    margin-right: 100px !important;
+}
+@media screen and (max-width: 650px){
     .ms-10{
         margin-left: 0 !important;
     }
@@ -47,4 +50,16 @@ html, body{
         height: 50px;
         width: 188px;
     }
+    .me-10{
+        margin-right: 10px !important;
+    }
+}
+.footer-logo{
+    height: 80px;
+    width: 108px;
+}
+.footer{
+    background-color: #888;
+    color: #f7f3e6;
+    padding: 50px 0;
 }

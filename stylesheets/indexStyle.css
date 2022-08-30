@@ -74,3 +74,6 @@ html,body {
 .bg-color {
     background-color: #E7F4FF;
 }
+.active {
+    color:#717a86
+}
