@@ -6,15 +6,16 @@ warm white: #f7f3e6
 
 delete the div css below when complete
 */
-/* div{
+div{
     border: red solid 1px;
-} */
+}
 
 html, body{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .navbar-color{
     background-color: #fff !important;
