@@ -44,7 +44,7 @@ html,body {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 100px;
 }
 .why-img-container img{
     height: 100%;
@@ -56,10 +56,10 @@ html,body {
     background-color: #E7F4FF;
     margin: 50px;
     font-size: large;
+    margin-left: 100px;
 }
 .whyUs{
     background-color: #E7F4FF;
-    margin: 50px;
     padding: 20px;
 }
 @media screen and (max-width: 500px){
