@@ -28,13 +28,13 @@ html,body {
     font-weight: bold;
     transform: translate(0px, -120px);
 }
-.grey-break{
-    background-color: #383734;
+.blue-break{
+    background-color: #083E89;
     height: 100px;
     width: 100vw;
 }
-.grey-break p{
-    color: #f7f3e6;
+.blue-break p{
+    color: #fff;
     font-size: 50px;
     line-height: 100px;
 }
@@ -53,13 +53,12 @@ html,body {
     border-radius: 5%;
 }
 .why-us-text-container{
-    background-color: #E7F4FF;
     margin: 50px;
     font-size: large;
     margin-left: 100px;
 }
 .whyUs{
-    background-color: #E7F4FF;
+    background-color: #fff;
     padding: 20px;
 }
 @media screen and (max-width: 500px){

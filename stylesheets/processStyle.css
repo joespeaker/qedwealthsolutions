@@ -1,0 +1,40 @@
+html,body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #eee;
+}
+.hero-section {
+    padding-top: 80px;
+}
+@media screen and (max-width: 650px) {
+    .hero-section {
+        padding-top: 50px;
+    }
+}
+.hero img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    transform: translateY(15px);
+}
+.blue-break{
+    background-color: #083E89;
+    height: 100px;
+    width: 100vw;
+}
+.blue-break p{
+    color: #fff;
+    font-size: 50px;
+    line-height: 100px;
+}
+.wStep {
+    background-color: #fff;
+    padding: 50px 0;
+}
+.gStep {
+    background-color: #aaa;
+    padding: 50px 0;
+}
+i {
+    font-size: 50px;
+    color: #083E89
+}
