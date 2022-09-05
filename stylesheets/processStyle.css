@@ -27,14 +27,30 @@ html,body {
     line-height: 100px;
 }
 .wStep {
-    background-color: #fff;
+    background-color: #eee;
     padding: 50px 0;
 }
 .gStep {
-    background-color: #aaa;
+    background-color: #ddd;
     padding: 50px 0;
 }
 i {
     font-size: 50px;
     color: #083E89
+}
+.icon {
+    text-align: right;
+}
+.text {
+    text-align: left;
+}
+.wStep:hover , .gStep:hover {
+    transform: scale(1.05);
+    box-shadow: #ddd 0 0 10px;
+}
+@media screen and (max-width: 767px) {
+    .icon {
+        visibility: hidden;
+    }
+
 }
