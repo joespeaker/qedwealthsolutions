@@ -29,28 +29,43 @@ html,body {
 .wStep {
     background-color: #eee;
     padding: 50px 0;
+    transition: all 0.2s ease;
 }
 .gStep {
     background-color: #ddd;
     padding: 50px 0;
+    transition: all 0.2s ease;
 }
 i {
     font-size: 50px;
-    color: #083E89
+    color: #083E89;
 }
 .icon {
     text-align: right;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 .text {
     text-align: left;
 }
 .wStep:hover , .gStep:hover {
-    transform: scale(1.05);
-    box-shadow: #ddd 0 0 10px;
+    transform: scale(1.03);
 }
+
 @media screen and (max-width: 767px) {
     .icon {
         visibility: hidden;
+    }
+    .wStep {
+        padding: 50px 25px;
+        text-overflow: wrap;
+    }
+    .gStep {
+        padding: 50px 25px;
+        text-overflow: wrap;
     }
 
 }
