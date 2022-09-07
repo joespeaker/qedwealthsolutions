@@ -1,0 +1,12 @@
+html,body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #eee;
+}
+.hero-section {
+    padding-top: 80px;
+}
+@media screen and (max-width: 650px) {
+    .hero-section {
+        padding-top: 50px;
+    }
+}

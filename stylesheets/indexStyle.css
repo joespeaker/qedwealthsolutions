@@ -22,11 +22,14 @@ html,body {
     background-color: #083E89;
     color: #eee;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px 20px;
     font-size: 20px;
     font-weight: bold;
     transform: translate(0px, -120px);
+}
+.hero-button:hover{
+    background-color: #31B2D1;
 }
 .blue-break{
     background-color: #083E89;
