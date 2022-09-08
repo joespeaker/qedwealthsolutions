@@ -66,6 +66,9 @@ html, body{
     .me-30{
         margin-right: 30px !important;
     }
+    .footer{
+        margin-bottom: 50px;
+    }
 }
 .footer-logo{
     height: 80px;
