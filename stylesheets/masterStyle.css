@@ -49,6 +49,9 @@ html, body{
 .me-30{
     margin-right: 300px !important;
 }
+.ms-30{
+    margin-left: 300px !important;
+}
 @media screen and (max-width: 767px){
     .ms-10{
         margin-left: 0 !important;
@@ -65,6 +68,9 @@ html, body{
     }
     .me-30{
         margin-right: 30px !important;
+    }
+    .ms-30{
+        margin-left: 30px !important;
     }
     .footer{
         margin-bottom: 50px;
