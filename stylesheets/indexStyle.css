@@ -79,3 +79,6 @@ html,body {
 .bg-color {
     background-color: #E7F4FF;
 }
+.text-middle {
+    padding: 50px 0;
+}

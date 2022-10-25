@@ -134,3 +134,47 @@ a:hover {
         text-align: center;
     }
 }
+.box-border{
+    box-shadow: #eee 0 0 10px;
+}
+.button{
+    background-color: #083E89;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 300px;
+}
+@media screen and (max-width: 872px){
+    .button{
+        font-size: 15px;
+    }
+}
+.button:hover{
+    background-color: #31B2D1;
+    color: #fff;
+}
+.a-right{
+    text-align: right;
+}
+.a-left{
+    text-align: left;
+}
+.box {
+    margin: 50px auto 0px auto;
+    width: 80%;
+    height: 100%;
+    background-color: #efeffa;
+    padding: 50px;
+    box-shadow: #eee 0 0 10px;
+    border: #083E89 solid 5px;
+    border-radius: 10px;
+}
+.hidden {
+    display: none;
+}
+.active1 {
+    background-color: #31B2D1;
+}
