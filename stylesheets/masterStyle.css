@@ -168,9 +168,8 @@ a:hover {
     height: 100%;
     background-color: #efeffa;
     padding: 50px;
-    box-shadow: #eee 0 0 10px;
-    border: #083E89 solid 5px;
-    border-radius: 10px;
+    box-shadow: #ddd 0 0 10px;
+    border-radius: 15px;
 }
 .hidden {
     display: none;
