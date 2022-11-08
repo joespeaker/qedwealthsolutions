@@ -4,19 +4,25 @@ html,body {
     background-color: #eee;
 }
 .hero{
-    background-color: #eee;
-    background-image: url("../imgs/texture.webp");
+    background: linear-gradient(#fff, #ddd);
     width: 100%;
-    height: 600px;
-    background-size: cover;
-    background-blend-mode: darken;
-    z-index: -1;
+    height: 700px;
 }
 .hero-text{
     color: #083E89;
     margin: 200px 0;
     font-size: 80px;
     font-style: strong;
+}
+@media screen and (max-width: 578px){
+    .hero-text {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 300px){
+    .hero-text {
+        font-size: 30px;
+    }
 }
 .hero-button{
     background-color: #083E89;
