@@ -11,7 +11,7 @@ html,body {
 .hero-text{
     color: #083E89;
     margin: 200px 0;
-    font-size: 80px;
+    font-size: 60px;
     font-style: strong;
 }
 @media screen and (max-width: 578px){
