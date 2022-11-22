@@ -23,7 +23,7 @@
 <!-- navbar-->
 <nav class="navbar navbar-expand-lg navbar-color navbar-light fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand ms-10" href="#"><img class="nav-logo" src="imgs/Logo-01.png" alt="QED Wealth Solutions"></a>
+        <a class="navbar-brand ms-10" href="index.html"><img class="nav-logo" src="imgs/Logo-01.png" alt="QED Wealth Solutions"></a>
         <button class="navbar-toggler me-10" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,8 +32,14 @@
             <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="ourprocess.html">Our Process</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="aboutus.html">About Us</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About Us
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="aboutus.html">Your Team</a></li>
+                    <li><a class="dropdown-item" href="story.html">Our Story</a></li>
+                  </ul>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="whoweserve.html">Who We Serve</a>
@@ -57,14 +63,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center mb-3">
                     <a href="schedule.html">
-                        <button class="hero-button">Take a quiz!</button>
+                        <button class="hero-button">Take a quiz</button>
                     </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
                     <a href="schedule.html">
                         <button class="hero-button">Schedule a call to experience the QED difference</button>
                     </a>
                 </div>
+            </div>
         </div>
 <!-- end of hero-->
 <!-- grey break line-->
@@ -80,13 +91,13 @@
     <div class="bg-color">
         <div class="whyUs">
             <div class="row text-center mt-4">
-                <div class="col-lg-4 col-md-4 col-sm-12 a-right"><a class="button active1" id="e-button" onclick="education()">Education & Experience</a></div>
-                <div class="col-lg-4 col-md-4 col-sm-12"><a class="button" id="i-button" onclick="independence()">Independence</a></div>
-                <div class="col-lg-4 col-md-4 col-sm-12 a-left"><a class="button" id="s-button" onclick="service()">Unmatched Service</a></div>
+                <div class="col-lg-4 col-md-4 col-sm-12 a-right"><a class="button active1" id="e-button" onmouseover="education()">Education & Experience</a></div>
+                <div class="col-lg-4 col-md-4 col-sm-12"><a class="button" id="i-button" onmouseover="independence()">Independence</a></div>
+                <div class="col-lg-4 col-md-4 col-sm-12 a-left"><a class="button" id="s-button" onmouseover="service()">Unmatched Service</a></div>
             </div>
             <div class="row mb-5" id="education">
                 <div class="col-11 box">
-                    <div><p>A teacher at heart, Tyler J. Meyer has dedicated much of his career to learning as much about the financial world as possible in order to provide the highest value for his clients.  In addition to being a Certified Financial Planner® (CFP®), one of the industry’s most esteemed professional designations, he is also a Chartered Financial Consultant® (ChFC®), Chartered Life Underwriter® (CLU®), Retirement Income Certified Planner® (RICP®), Financial Services Certified Professional® (FSCP®), and Certified in Long Term Care® (CLTC®).  These designations make Tyler one of the most educated advisors in the entire country.</p></div>
+                    <div id="words"><p>A teacher at heart, Tyler J. Meyer has dedicated much of his career to learning as much about the financial world as possible in order to provide the highest value for his clients.  In addition to being a Certified Financial Planner® (CFP®), one of the industry’s most esteemed professional designations, he is also a Chartered Financial Consultant® (ChFC®), Chartered Life Underwriter® (CLU®), Retirement Income Certified Planner® (RICP®), Financial Services Certified Professional® (FSCP®), and Certified in Long Term Care® (CLTC®).  These designations make Tyler one of the most educated advisors in the entire country.</p></div>
                 </div>
             </div>
             <div class="row hidden mb-5" id="independence">
@@ -115,7 +126,7 @@
                 call
             </span></i> Give Us a Call</a></p>
             
-            <p><a href="mailto:joebieker2486@outlook.com"><span class="material-symbols-outlined gIcon">
+            <p><a href="mailto:info@qedwealthsolutions.com"><span class="material-symbols-outlined gIcon">
                 mail
             </span></i> Send Us an Email</a></p>
             

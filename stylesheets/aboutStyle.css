@@ -26,38 +26,12 @@ html,body {
     font-size: 50px;
     line-height: 100px;
 }
-.about-img-container{
-    height: 500px;
-    width: 400px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: 100px;
+.profile {
+    margin: 20px;
+    width: 200px;
+    box-shadow: #ddd 0 0 10px;
 }
-.about-img-container img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 5%;
-}
-.about-us-text-container{
-    margin: 50px;
-    font-size: large;
-    margin-left: 100px;
-}
-.aboutUs{
-    background-color: #fff;
-    padding: 20px;
-}
-@media screen and (max-width: 500px){
-    .why-img-container{
-        height: 300px;
-        width: 250px;
-    }
-    .why-us-text-container{
-        margin: 0;
-    }
-    .whyUs{
-        margin: 0;
-    }
+.profile-text{
+    margin: 20px;
+    
 }

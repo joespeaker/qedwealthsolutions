@@ -1,41 +1,20 @@
-
 html,body {
     font-family: 'Ubuntu', sans-serif;
     background-color: #eee;
 }
-.hero{
-    background: linear-gradient(#fff, #ddd);
+.hero-section {
+    padding-top: 80px;
+}
+@media screen and (max-width: 650px) {
+    .hero-section {
+        padding-top: 50px;
+    }
+}
+.hero img {
+    height: 500px;
     width: 100%;
-    height: 600px;
-}
-.hero-text{
-    color: #083E89;
-    margin: 200px 0;
-    font-size: 55px;
-    font-style: strong;
-}
-@media screen and (max-width: 578px){
-    .hero-text {
-        font-size: 50px;
-    }
-}
-@media screen and (max-width: 300px){
-    .hero-text {
-        font-size: 30px;
-    }
-}
-.hero-button{
-    background-color: #083E89;
-    color: #eee;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: bold;
-    transform: translate(0px, -120px);
-}
-.hero-button:hover{
-    background-color: #31B2D1;
+    object-fit: cover;
+    transform: translateY(15px);
 }
 .blue-break{
     background-color: #083E89;
@@ -47,7 +26,7 @@ html,body {
     font-size: 50px;
     line-height: 100px;
 }
-.why-img-container{
+.about-img-container{
     height: 500px;
     width: 400px;
     margin-top: 50px;
@@ -55,18 +34,18 @@ html,body {
     margin-left: auto;
     margin-right: 100px;
 }
-.why-img-container img{
+.about-img-container img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 5%;
 }
-.why-us-text-container{
+.about-us-text-container{
     margin: 50px;
     font-size: large;
     margin-left: 100px;
 }
-.whyUs{
+.aboutUs{
     background-color: #fff;
     padding: 20px;
 }
@@ -81,10 +60,4 @@ html,body {
     .whyUs{
         margin: 0;
     }
-}
-.bg-color {
-    background-color: #E7F4FF;
-}
-.text-middle {
-    padding: 50px 0;
 }

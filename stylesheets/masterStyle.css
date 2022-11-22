@@ -174,10 +174,16 @@ a:hover {
     padding: 50px;
     box-shadow: #ddd 0 0 10px;
     border-radius: 15px;
+    animation: fadeIn 1s;
 }
+
 .hidden {
     display: none;
 }
 .active1 {
     background-color: #31B2D1;
+}
+.active2{
+    color: #31B2D1;
+    font-weight: bold;
 }
