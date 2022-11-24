@@ -33,5 +33,9 @@ html,body {
 }
 .profile-text{
     margin: 20px;
-    
+}
+@media screen and (max-width: 767px) {
+    .text-end{
+        text-align: left !important;
+    }
 }
