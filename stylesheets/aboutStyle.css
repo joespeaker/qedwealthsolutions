@@ -33,5 +33,11 @@ html,body {
 }
 .profile-text{
     margin: 20px;
-    
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+    .text-end{
+        text-align: left !important;
+    }
 }

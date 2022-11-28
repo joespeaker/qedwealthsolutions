@@ -88,3 +88,7 @@ html,body {
 .text-middle {
     padding: 50px 0;
 }
+.font {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+}
