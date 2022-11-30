@@ -14,10 +14,20 @@ html,body {
     font-size: 55px;
     font-style: strong;
 }
-@media screen and (max-width: 578px){
+@media screen and (max-width: 767px){
     .hero-text {
         font-size: 50px;
+        margin-bottom: 170px !important;
+        margin-top: 170px !important;
     }
+    .hero {
+        height: 700px;
+    }
+    .text-end, .text-start {
+        text-align: center !important;
+        align-content: center !important;
+    }
+    
 }
 @media screen and (max-width: 300px){
     .hero-text {
