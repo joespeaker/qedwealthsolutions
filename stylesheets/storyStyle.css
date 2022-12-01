@@ -27,8 +27,8 @@ html,body {
     line-height: 100px;
 }
 .about-img-container{
-    height: 500px;
-    width: 400px;
+    max-height: 500px;
+    width: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
@@ -39,6 +39,7 @@ html,body {
     width: 100%;
     object-fit: cover;
     border-radius: 5%;
+    box-shadow: #bbb 0 0 10px;
 }
 .about-us-text-container{
     margin: 50px;
