@@ -11,9 +11,10 @@ html,body {
     }
 }
 .hero img {
-    height: 500px;
-    width: 100%;
+    height: auto;
+    width: 100vw;
     object-fit: cover;
+    transform: translateY(15px);
 }
 .blue-break{
     background-color: #083E89;
