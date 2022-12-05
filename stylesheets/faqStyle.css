@@ -1,0 +1,55 @@
+html,body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fff;
+}
+.hero-section {
+    padding-top: 80px;
+}
+@media screen and (max-width: 650px) {
+    .hero-section {
+        padding-top: 50px;
+    }
+}
+.hero img {
+    height: auto;
+    width: 100vw;
+    object-fit: cover;
+    transform: translateY(15px);
+}
+.blue-break{
+    background-color: #083E89;
+    height: 100px;
+    width: 100vw;
+}
+.blue-break p{
+    color: #fff;
+    font-size: 50px;
+    line-height: 100px;
+}
+/* .spacer {
+    width: 80vw;
+    height: auto;
+    padding: 100px;
+} */
+.accordion {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.accordion-button:focus {
+    outline: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #eee;
+    color: #000;
+}
+.accordion-button::after{
+    color:#000 !important;
+}
+.accordion-button:focus::after{
+    color:#000 !important;
+    background-color: #eee;
+}

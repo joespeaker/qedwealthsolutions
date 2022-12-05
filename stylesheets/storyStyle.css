@@ -1,6 +1,6 @@
 html,body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #eee;
+    background-color: #fff;
 }
 .hero-section {
     padding-top: 80px;
@@ -11,8 +11,8 @@ html,body {
     }
 }
 .hero img {
-    height: 500px;
-    width: 100%;
+    height: auto;
+    width: 100vw;
     object-fit: cover;
     transform: translateY(15px);
 }
@@ -27,12 +27,8 @@ html,body {
     line-height: 100px;
 }
 .about-img-container{
-    max-height: 500px;
+    max-height: 400px;
     width: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: 100px;
 }
 .about-img-container img{
     height: 100%;
@@ -42,15 +38,13 @@ html,body {
     box-shadow: #bbb 0 0 10px;
 }
 .about-us-text-container{
-    margin: 50px;
-    font-size: large;
-    margin-left: 100px;
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 400;
 }
 .aboutUs{
     background-color: #fff;
     padding: 20px;
+    margin-bottom: 100px;
 }
 @media screen and (max-width: 500px){
     .why-img-container{
