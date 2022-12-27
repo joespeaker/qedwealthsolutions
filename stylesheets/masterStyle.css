@@ -46,7 +46,7 @@ html, body{
 .ms-30{
     margin-left: 300px !important;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1268px){
     .ms-10{
         margin-left: 0 !important;
     }
