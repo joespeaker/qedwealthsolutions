@@ -17,6 +17,7 @@ html,body {
     transform: translateY(15px);
 }
 .blue-break{
+    margin-top: 100px;
     background-color: #083E89;
     height: 100px;
     width: 100vw;
