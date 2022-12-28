@@ -29,6 +29,7 @@ html,body {
     margin: 150px 0;
     font-size: 55px;
     font-style: strong;
+    font-family: 'Roboto', sans-serif;
 }
 @media screen and (max-width: 1089px) {
     .hero-text {
