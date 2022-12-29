@@ -79,6 +79,12 @@ html,body {
     font-size: 50px;
     line-height: 100px;
 }
+@media screen and (max-width: 1268px) {
+    .blue-break p{
+        font-size: 30px;
+        line-height: 100px;
+    }
+}
 .why-img-container{
     height: 500px;
     width: 400px;
