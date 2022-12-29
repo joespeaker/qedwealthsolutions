@@ -1,7 +1,7 @@
 
 html,body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #eee;
+    background-color: #fff;
 }
 .hero{
     background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4));
@@ -105,7 +105,8 @@ html,body {
     margin-left: 100px;
 }
 .whyUs{
-    background-color: #fff;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 90%, rgba(238,238,238,1) 100%);
     padding: 20px;
 }
 @media screen and (max-width: 500px){
@@ -121,7 +122,7 @@ html,body {
     }
 }
 .bg-color {
-    background-color: #E7F4FF;
+    background-color: #fff
 }
 .text-middle {
     padding: 50px 0;
@@ -129,4 +130,22 @@ html,body {
 .font {
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 400;
+}
+.core {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(238,238,238,1) 100%);
+}
+.core-core {
+    margin-bottom: 20px;
+}
+.belief {
+    padding:10px;
+}
+i {
+    font-size: 50px;
+    color: #083E89;
+    margin-bottom: 10px;
+}
+.hidden {
+    z-index: -1;
 }
