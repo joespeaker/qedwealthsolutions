@@ -105,8 +105,7 @@ html,body {
     margin-left: 100px;
 }
 .whyUs{
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 90%, rgba(238,238,238,1) 100%);
+    background-color: #fff;
     padding: 20px;
 }
 @media screen and (max-width: 500px){
@@ -132,8 +131,7 @@ html,body {
     font-weight: 400;
 }
 .core {
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(238,238,238,1) 100%);
+    background-color: #fff;
 }
 .core-core {
     margin-bottom: 20px;
