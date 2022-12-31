@@ -204,10 +204,10 @@
                 <div class="form-group">
                     <label for="fname">
                         First Name:
-                        <input name="name" type="text" class="form-control" id="fname" placeholder="John" required>
+                        <input name="fname" type="text" class="form-control" id="fname" placeholder="John" required>
                     </label>
                     <label for="lname">Last Name:
-                        <input name="name" type="text" class="form-control" id="lname" placeholder="Smith" required>
+                        <input name="lname" type="text" class="form-control" id="lname" placeholder="Smith" required>
                     </label>
                     <br>
                     <label for="email">Email Address:</label>
