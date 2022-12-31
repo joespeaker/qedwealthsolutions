@@ -36,32 +36,8 @@ html,body {
         line-height: 100px;
     }
 }
-/* .spacer {
-    width: 80vw;
-    height: auto;
-    padding: 100px;
-} */
-.accordion {
-    width: 80vw;
-    margin: 0 auto;
-    padding: 25px;
-    background-color: #fff !important;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    color:#000 !important;
-
-}
-.accordion-button:focus {
-    outline: 0 !important;
-    border: none !important;
-    box-shadow: none !important;
-    background-color: #eee;
-    color: #000;
-}
-.accordion-button::after{
-    color:#000 !important;
-}
-.accordion-button:focus::after{
-    color:#000 !important;
-    background-color: #eee !important;
+@media screen and (max-width: 767px) {
+    .text-end{
+        text-align: left !important;
+    }
 }
