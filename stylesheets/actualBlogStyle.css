@@ -41,3 +41,17 @@ html,body {
         text-align: left !important;
     }
 }
+
+.h {
+    font-size: 50px;
+    line-height: 100px;
+    color: #000307;
+    font-family: 'Arimo', sans-serif;
+}
+
+.p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000307;
+    font-family: 'Source Serif Pro', serif;;
+}
