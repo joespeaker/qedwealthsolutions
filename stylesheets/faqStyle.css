@@ -55,13 +55,18 @@ html,body {
     outline: 0 !important;
     border: none !important;
     box-shadow: none !important;
-    background-color: #eee;
-    color: #000;
+    background-color: #083E89;
+    color: #fff;
 }
 .accordion-button::after{
-    color:#000 !important;
+    color:#083E89 !important;
+    background-color: #fff !important;
 }
 .accordion-button:focus::after{
     color:#000 !important;
     background-color: #eee !important;
+}
+h2::after {
+    background-color: #fff !important;
+    color: #000 !important;
 }
