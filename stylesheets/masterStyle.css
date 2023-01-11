@@ -197,3 +197,6 @@ a:hover {
 hr {
     border: 1px solid #ccc;
 }
+.copyright {
+    font-size: small;
+}

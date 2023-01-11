@@ -42,16 +42,70 @@ html,body {
     }
 }
 
-.h {
-    font-size: 50px;
-    line-height: 100px;
-    color: #000307;
-    font-family: 'Arimo', sans-serif;
+.whole {
+    margin: auto;
+    width: 60vw;
+
 }
 
-.p {
+.title {
+    font-size: 50px;
+    line-height: 80px;
+    color: #000000;
+    text-overflow: wrap;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.title-font {
+    font-family: 'Arimo', sans-serif !important;
+}
+.subtitle {
+
+}
+
+.body-text {
     font-size: 20px;
     line-height: 30px;
     color: #000307;
-    font-family: 'Source Serif Pro', serif;;
+    font-family: 'Source Serif Pro', serif !important;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 500px){
+    .title {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .body-text {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .whole {
+        margin: auto;
+        width: 80vw;
+    }
+    .bloghr {
+        width: 80vw;
+        margin: auto;
+    }
+    .date {
+        width: 80vw;
+        color: #000;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+.empty {
+    margin-top: 120px;
+}
+.bloghr {
+    width: 60vw;
+    margin: auto;
+    border: 1px solid #111 !important;
+}
+.date {
+    width: 60vw;
+    color: #000;
+    margin: auto;
+    margin-bottom: 20px;
 }
