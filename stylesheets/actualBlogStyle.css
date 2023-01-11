@@ -48,3 +48,10 @@ html,body {
     color: #000307;
     font-family: 'Arimo', sans-serif;
 }
+
+.p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000307;
+    font-family: 'Source Serif Pro', serif;;
+}
