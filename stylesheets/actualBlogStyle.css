@@ -60,7 +60,13 @@ html,body {
     font-family: 'Arimo', sans-serif !important;
 }
 .subtitle {
-
+    font-size: 30px;
+    line-height: 50px;
+    color: #000000;
+    text-overflow: wrap;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif !important;
 }
 
 .body-text {
