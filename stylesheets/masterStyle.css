@@ -202,3 +202,6 @@ hr {
 .shadow {
     box-shadow: #444 0 0 10px;
 }
+.empty {
+    margin-top: 120px;
+}
