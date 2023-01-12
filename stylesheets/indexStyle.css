@@ -94,6 +94,9 @@ html,body {
 .core-core {
     margin-bottom: 20px;
 }
+h3.core-text {
+    font-size: 40px;
+}
 .belief {
     padding:10px;
 }
