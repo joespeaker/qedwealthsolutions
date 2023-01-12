@@ -166,3 +166,10 @@ hr.blue {
         font-size: 30px;
     }
 }
+.left {
+    padding-right: 25px;
+}
+.right {
+   
+    padding-left: 25px;
+}
