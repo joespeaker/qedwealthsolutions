@@ -1,7 +1,6 @@
 /* color codes
 dark blue: #083E89
 light blue: #31B2D1
-warm white: #f7f3e6
 */
 
 html, body{
@@ -199,4 +198,10 @@ hr {
 }
 .copyright {
     font-size: small;
+}
+.shadow {
+    box-shadow: #444 0 0 10px;
+}
+.empty {
+    margin-top: 120px;
 }
