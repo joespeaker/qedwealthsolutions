@@ -4,10 +4,10 @@ html,body {
     background-color: #fff;
 }
 .hero{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4));
-    background-blend-mode: overlay;
-    width: auto;
-    height: auto;
+    background-image: url("../imgs/wheatsmalllight-compressed.jpeg");
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
     position: relative;
     z-index: 1;
 }

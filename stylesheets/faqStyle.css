@@ -58,13 +58,13 @@ html,body {
     background-color: #083E89;
     color: #fff;
 }
-.accordion-button::after{
+.accordion-button::after:focus{
     color:#083E89 !important;
     background-color: #fff !important;
 }
-.accordion-button:focus::after{
-    color:#000 !important;
-    background-color: #eee !important;
+button:focus {
+    background-color: #083E89;
+    color: #fff;
 }
 h2::after {
     background-color: #fff !important;
