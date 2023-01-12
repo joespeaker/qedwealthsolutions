@@ -169,10 +169,18 @@ hr.blue {
         font-size: 30px;
     }
 }
-.left {
-    padding-right: 25px;
+.auth-img {
+    height: auto;
+    width: 600px;
+    margin: auto;
+    
 }
-.right {
-   
-    padding-left: 25px;
+.auth-img img {
+    height: 100%;
+    width: 100%;
+    box-shadow: #bbb 0 0 10px;
+    border-radius: 5px;
+}
+.auth-text {
+
 }
