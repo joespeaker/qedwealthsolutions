@@ -31,31 +31,6 @@ html,body {
     font-style: strong;
     font-family: 'Roboto', sans-serif;
 }
-@media screen and (max-width: 1089px) {
-    .hero-text {
-        
-    }
-}
-@media screen and (max-width: 767px){
-    .hero-text {
-        font-size: 50px;
-        margin-bottom: 170px !important;
-        margin-top: 170px !important;
-    }
-    .hero {
-        height: 700px;
-    }
-    .text-end, .text-start {
-        text-align: center !important;
-        align-content: center !important;
-    }
-    
-}
-@media screen and (max-width: 300px){
-    .hero-text {
-        font-size: 30px;
-    }
-}
 .hero-button{
     background-color: #083E89;
     color: #eee;
@@ -78,12 +53,6 @@ html,body {
     color: #fff;
     font-size: 50px;
     line-height: 100px;
-}
-@media screen and (max-width: 1268px) {
-    .blue-break p{
-        font-size: 30px;
-        line-height: 100px;
-    }
 }
 .why-img-container{
     height: 500px;
@@ -108,18 +77,7 @@ html,body {
     background-color: #fff;
     padding: 20px;
 }
-@media screen and (max-width: 500px){
-    .why-img-container{
-        height: 300px;
-        width: 250px;
-    }
-    .why-us-text-container{
-        margin: 0;
-    }
-    .whyUs{
-        margin: 0;
-    }
-}
+
 .bg-color {
     background-color: #fff
 }
@@ -146,4 +104,65 @@ i {
 }
 .hidden {
     z-index: -1;
+}
+.cfpnp {
+    font-size: 70px;
+    line-height: 100px;
+}
+.cfpnimg {
+    height: 100px;
+    width: auto;
+}
+.cfpnimg img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+hr.blue {
+    background-color: #083E89;
+    border: 1px solid #083E89 !important;
+}
+
+@media screen and (max-width: 1268px) {
+    .blue-break p{
+        font-size: 30px;
+        line-height: 100px;
+    }
+}
+@media screen and (max-width: 767px){
+    .hero-text {
+        font-size: 50px;
+        margin-bottom: 170px !important;
+        margin-top: 170px !important;
+    }
+    .hero {
+        height: 700px;
+    }
+    .text-end, .text-start {
+        text-align: center !important;
+        align-content: center !important;
+    }
+    .cfpnp {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .why-img-container{
+        height: 300px;
+        width: 250px;
+    }
+    .why-us-text-container{
+        margin: 0;
+    }
+    .whyUs{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 300px){
+    .hero-text {
+        font-size: 30px;
+    }
 }
