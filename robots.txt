@@ -1,6 +1,9 @@
 User-agent: Googlebot
 Disallow: /404.html
 
+User-agent: Googlebot
+Disallow: /blog/testblog.html
+
 User-agent: *
 Allow: /
 
