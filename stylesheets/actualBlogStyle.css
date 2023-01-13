@@ -83,19 +83,30 @@ html,body {
         line-height: 50px;
     }
     .body-text {
-        font-size: 20px;
-        line-height: 35px;
+        font-size: 15px;
+        line-height: 25px;
     }
     .whole {
         margin: auto;
-        width: 80vw;
+        width: 90vw;
     }
     .bloghr {
         width: 80vw;
         margin: auto;
     }
     .date {
-        width: 80vw;
+        width: 90vw;
+        color: #000;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .bloghr {
+        width: 83vw !important;
+        margin: auto;
+        border: 1px solid #111 !important;
+    }
+    .date {
+        width: 90vw !important;
         color: #000;
         margin: auto;
         margin-bottom: 20px;
