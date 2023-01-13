@@ -170,7 +170,7 @@ a:hover {
     width: 80%;
     background-color: #efeffa;
     padding: 50px;
-    box-shadow: #ddd 0 0 10px;
+    box-shadow: #999 0 0 10px;
     border-radius: 15px;
 }
 @media screen and (max-width: 949px){
@@ -179,7 +179,7 @@ a:hover {
         width: 90%;
         background-color: #efeffa;
         padding: 50px;
-        box-shadow: #ddd 0 0 10px;
+        box-shadow: #999 0 0 10px;
         border-radius: 15px;
     }
 }
