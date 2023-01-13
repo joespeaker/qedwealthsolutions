@@ -84,22 +84,24 @@
     ?>
     
 <!-- end popup->
-    <!--footer-->
-    <div class="footer">
-        <div class="row mb-3">
-            <div class="col-12 text-center">
-            <a href="index.html"><img class="footer-logo" src="imgs/icon-1.png" alt="QED Wealth Solutions"></a>
+        <!--footer-->
+        <div class="footer">
+    <div class="row mb-3">
+        <div class="col-12 text-center">
+            <a href="index.html"><img class="footer-logo" src="imgs/icon-1.png" alt="QED Wealth Solutions Logo"></a>
         </div>
     </div>
     <div class="row mb-3">
         <div class="col-12 text-center">
-            <p><a href="tel:4022457857"><span class="material-symbols-outlined gIcon">
+            <p><a href="tel:6205534052"><span class="material-symbols-outlined gIcon">
                 call
             </span></i> Give Us a Call</a></p>
             
-            <p><a href="mailto:info@qedwealthsolutions"><span class="material-symbols-outlined gIcon">
+            <p><a href="mailto:info@qedwealthsolutions.com"><span class="material-symbols-outlined gIcon">
                 mail
             </span></i> Send Us an Email</a></p>
+
+            <p>350 N Main, Kingman, Kansas</p>
             
         </div>
     <!--copyright-->
@@ -107,13 +109,11 @@
         <div class="row">
             <div class="col-12 text-center">
                 <p class="copyright">
-                    QED Wealth Solutions is a registered investment adviser.
+                    QED Wealth Solutions is a registered investment advisor.
                     <br>
-                    Commonly requested documents: ADV Part 2A, ADV Part 2B, Form CRS and Privacy Policy
+                    Commonly requested documents: <a href="https://files.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=805752" target="new">ADV Part 2</a> and <a href="QED Wealth Solutions Privacy Policy Statement.pdf" target="new">Privacy Policy</a>
                     <br>
                     Copies of these documents, as well as our entire policies and procedures manual will be mailed upon request.
-                    <br>
-                    © 2022 QED Wealth Solutions, all rights reserved
                 </p>
             </div>
         </div>
