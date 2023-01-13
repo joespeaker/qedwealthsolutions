@@ -17,7 +17,7 @@
             <meta property="og:url" content="https://qedwealthsolutions.com/">
             <meta property="og:image" content="">
             <meta http-equiv = "refresh" content = "10; url = https://www.qedwealthsolutions.com" />
-            <title>QED Wealth Solutions - Retirement Tax Quiz</title>
+            <title>QED Wealth Solutions - Retirement Tax Quiz Success</title>
             <link rel="shortcut icon" type="image/x-icon" href="imgs/fav.png" >
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
             <link rel="stylesheet" href="stylesheets/quizStyle.css">
