@@ -70,3 +70,8 @@ h2::after {
     background-color: #fff !important;
     color: #000 !important;
 }
+@media screen and (max-width:393px) {
+    .blue-break {
+        height: 200px;
+    }
+}
