@@ -205,3 +205,6 @@ hr {
 .empty {
     margin-top: 120px;
 }
+.italics {
+    font-style: italic;
+}
