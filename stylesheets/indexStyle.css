@@ -135,7 +135,8 @@ hr.blue {
 }
 @media screen and (max-width: 767px){
     .hero-text {
-        font-size: 50px;
+        font-size: 40px;
+        line-height: 50px;
         margin-bottom: 170px !important;
         margin-top: 170px !important;
     }
@@ -163,6 +164,16 @@ hr.blue {
     .whyUs{
         margin: 0;
     }
+    .hero-button{
+        background-color: #083E89;
+        color: #eee;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-size: 15px;
+        font-weight: bold;
+        transform: translate(0px, -120px);
+    }
 }
 @media screen and (max-width: 300px){
     .hero-text {
@@ -180,7 +191,4 @@ hr.blue {
     width: 100%;
     box-shadow: #bbb 0 0 10px;
     border-radius: 5px;
-}
-.auth-text {
-
 }
