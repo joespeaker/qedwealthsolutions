@@ -168,7 +168,7 @@ a:hover {
 .box {
     margin: 50px auto 0px auto;
     width: 80%;
-    background-color: #efeffa;
+    background-color: #f2f2fb;
     padding: 50px;
     box-shadow: #999 0 0 10px;
     border-radius: 15px;
@@ -177,7 +177,7 @@ a:hover {
     .box {
         margin: 50px auto 0px auto;
         width: 90%;
-        background-color: #efeffa;
+        background-color: #f2f2fb;
         padding: 50px;
         box-shadow: #999 0 0 10px;
         border-radius: 15px;
