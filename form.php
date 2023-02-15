@@ -91,7 +91,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- end of blue break-->
 <!-- start of form-->
       <div class="mt-5 mb-5 ms-30 me-30">
-<form action="success.php" method="post">
+<form id="myForm">
   <div class="row">
     <div class="col-12">
       <div class="question">
