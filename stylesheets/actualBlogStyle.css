@@ -138,3 +138,26 @@ html,body {
         margin-left: 0;
     }
 }
+.bold {
+    font-weight: bolder;
+}
+#img1 {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+#img2 {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+#img3 {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+#img4 {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
