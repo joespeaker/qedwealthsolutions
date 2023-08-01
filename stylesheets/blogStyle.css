@@ -51,3 +51,14 @@ html,body {
     transform: scale(1.03);
     transition: all 0.2s ease;
 }
+
+.sidebar {
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #ddd; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: px;
+}
