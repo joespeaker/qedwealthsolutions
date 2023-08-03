@@ -41,9 +41,12 @@ html,body {
         text-align: left !important;
     }
 }
-.box {
+.blogbox {
+    width: 100%;
+    padding: 50px;
+    box-shadow: 0 0px 25px 0px #ddd;
+    border-radius: 15px;
     background: rgb(255,255,255) !important;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%) !important;
     transition: all 0.2s ease-out;
 
 }
@@ -61,4 +64,16 @@ html,body {
     background-color: #ddd; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: px;
+}
+.grid-container {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+    text-overflow: ellipsis;
+    height: min-content;
+}
+.cta {
+    font-size: 20px;
 }
