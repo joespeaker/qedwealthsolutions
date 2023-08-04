@@ -40,6 +40,13 @@ function filter(filterName) {
         }
     }
 
+    if (filterName == 'clear') {
+        for (i=0; i<tags.length; i++) {
+            tags[i].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.classList.remove('hidden');
+        }
+        return;
+    }
+
     for (i=0; i<tags.length; i++) {
         let tag = tags[i].innerText.toUpperCase();
         console.log(tag + ' ' + filter);
