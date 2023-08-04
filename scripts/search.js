@@ -14,3 +14,15 @@ function search() {
     }
     
 }
+
+function filter() {
+    //Retirement
+    //Tax Planning
+    //Money and Kids
+    //Philosophy of Money
+    //Investing
+    //Current Events
+    //Insights
+    let tags = document.getElementsByTagName('tags');
+    
+}
