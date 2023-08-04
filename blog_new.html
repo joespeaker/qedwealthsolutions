@@ -39,6 +39,7 @@
         <link rel="stylesheet" href="stylesheets/blogStyle.css">
         <link rel="stylesheet" href="stylesheets/masterStyle.css">
         <script src="https://kit.fontawesome.com/f7b26bdd81.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="scripts/search.js"></script>
     </head>
     <body>
@@ -97,16 +98,24 @@
         </div>
     </div>
 </div>
-<div class="filters">
-    <div class="row">
-        <div class="col-12">
-            <div class="filter text-center">
-                
+<div class="filters text-center">
+    <div class="row text-center">
+        <div class="col-12 text-center">
+            <div class="filterbox text-center">
+                <div class="filterlist text-center">
+                    <a onclick="filter('insights')"><div class="filter">Insights</div></a>
+                    <a onclick="filter('retirement')"><div class="filter">Retirement</div></a>
+                    <a onclick="filter('investing')"><div class="filter">Investing</div></a>
+                    <a onclick="filter('tax planning')"><div class="filter">Tax Planning</div></a>
+                    <a onclick="filter('money and kids')"><div class="filter">Money and Kids</div></a>
+                    <a onclick="filter('philosophy of money')"><div class="filter">Philosophy of Money</div></a>
+                    <a onclick="filter('current events')"><div class="filter">Current Events</div></a>
+                    <a onclick="filter('clear')"><div class="filter"><i class="fa-solid fa-x"></i></div></a>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
 <!-- blogs-->
 <div class="grid-container ms-10 me-10 mt-5">
     <div class="grid-item">
@@ -117,31 +126,7 @@
                         <div class="taglist">
                                 <div class="tag">Insights</div>
                                 <div class="tag">Retirement</div>
-                                <div class="tag">Investing</div>
-                                <div class="tag">Investing</div>
-                        </div>
-                    </div>
-                    <br>
-                    <h3>Why I Started My Own Firm</h3>
-                    <h5>Tyler Meyer</h5>
-                    <br>
-                    <span class="paragraph">
-                        <p class="font">From the outside, starting my own independent financial planning firm may look a little crazy...and maybe it is. Getting set up for your own Registered Investment Advisory (RIA) is not for the faint of heart. You submit yourself to background checks, pay consultants thousands of dollars to help you navigate the complex registration process, create multiple business structures, and in the process turn your normal day to day on its head.  And this is just to get to day one of the firm.  Click to continue reading.</p>
-                    </span>
-                    <hr>
-                    <p class="cta">Read More ></p>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="grid-item">
-        <div class="content">
-            <a href="blogs/blog1.13.23.html">
-                <div id="blog1.13.23" class="blogbox mb-5">
-                    <div class="">
-                        <div class="taglist">
-                                <div class="tag">Insights</div>
-                                <div class="tag">Retirement</div>
+                                <div class="tag">Philosophy of Money</div>
                                 <div class="tag">Investing</div>
                         </div>
                     </div>
@@ -166,7 +151,28 @@
                         <div class="taglist">
                                 <div class="tag">Insights</div>
                                 <div class="tag">Retirement</div>
-                                <div class="tag">Investing</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Why I Started My Own Firm</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">From the outside, starting my own independent financial planning firm may look a little crazy...and maybe it is. Getting set up for your own Registered Investment Advisory (RIA) is not for the faint of heart. You submit yourself to background checks, pay consultants thousands of dollars to help you navigate the complex registration process, create multiple business structures, and in the process turn your normal day to day on its head.  And this is just to get to day one of the firm.  Click to continue reading.</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog1.13.23.html">
+                <div id="blog1.13.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Money and Kids</div>
                         </div>
                     </div>
                     <br>

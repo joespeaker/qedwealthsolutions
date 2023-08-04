@@ -68,7 +68,6 @@ html,body {
     display: grid;
     gap: 35px;
     grid-template-columns: auto auto auto;
-    grid-auto-rows: 1fr;
 }
 @media screen and (max-width: 820px) {
     .grid-container {
@@ -92,7 +91,7 @@ html,body {
 }
 .grid-item {
     text-overflow: ellipsis;
-    height: 100%;
+    height: auto;
 }
 .cta {
     font-size: 20px;
@@ -119,6 +118,34 @@ html,body {
     width: 100%;
     flex-wrap: wrap;
 }
+.filterbox {
+    width: 40vw;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.filter {
+    color: #083E89;
+    background-color: #e0e0e0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+a .filter:hover {
+    color: #31B2D1;
+
+}
+.filterlist {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
 .paragraph {
     display: flex;
     width: 100%;
@@ -130,3 +157,7 @@ html,body {
 /* a:hover .author, a:hover .paragraph {
     color: #083E89 !important;
 } */
+.selected {
+    background-color: #444;
+    color: #31B2D1;
+}
