@@ -39,6 +39,7 @@
         <link rel="stylesheet" href="stylesheets/blogStyle.css">
         <link rel="stylesheet" href="stylesheets/masterStyle.css">
         <script src="https://kit.fontawesome.com/f7b26bdd81.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="scripts/search.js"></script>
     </head>
     <body>
@@ -97,331 +98,696 @@
         </div>
     </div>
 </div>
-<div class="search">
-    <div class="row">
+<div class="filters text-center">
+    <div class="row text-center">
         <div class="col-12 text-center">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            Search: 
-            <input class="searchbox mt-5 border" type="text" oninput="search()" id="searchbox">
+            <div class="filterbox text-center">
+                <div class="filterlist text-center">
+                    <a onclick="filter('social security')"><div class="filter">Social Security</div></a>
+                    <a onclick="filter('retirement')"><div class="filter">Retirement</div></a>
+                    <a onclick="filter('investing')"><div class="filter">Investing</div></a>
+                    <a onclick="filter('tax planning')"><div class="filter">Tax Planning</div></a>
+                    <a onclick="filter('money and kids')"><div class="filter">Money and Kids</div></a>
+                    <a onclick="filter('philosophy of money')"><div class="filter">Philosophy of Money</div></a>
+                    <a onclick="filter('current events')"><div class="filter">Current Events</div></a>
+                    <a onclick="filter('fees')"><div class="filter">Fees</div></a>
+                    <a onclick="filter('charitable giving')"><div class="filter">Charitable Giving</div></a>
+                    <a onclick="filter('clear')"><div class="filter"><div class="filter">Clear Tags</div></a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-<blogs>
-<!-- <div class="sidebar">
-    Sidebar stuff
-</div> -->
-<!-- end of blue break-->
+<!-- blogs-->
+<div class="grid-container ms-10 me-10 mt-5">
+    <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog8.1.23.html">
+                <div id="blog8.1.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Philosophy of Money</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Musings from Vacation: The Importance of the Proper Ordering of Money</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">Last week my family and I had the wonderful opportunity to take a summer vacation up to the shores of Lake Michigan.  While the drive made for a bit of a challenging trip, we really had a wonderful time and I have always enjoyed the change of pace and perspective that vacation can bring.    
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
 
-<!-- 
-    This is an example of a blog element - copy and paste this with the correct information to add a new blog
-    
-    <div class="row">
-    <div class="col-12">
-        <a href="blogs/testblog.html">
-        <div id="testblog" class="box mb-5">
-            <h3>First Blog</h3>
-            <p class="font">This is the first blog of mine, take a look by clicking on this box and...</p>
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog7.18.23.html">
+                <div id="blog7.18.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Retirement</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>26</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">This week’s blog is a little different.  Today we celebrate a significant milestone for the blog.  It is the 26th blog since the launch of QED Wealth Solutions back in January.  In other words, I have written a weekly blog each week for the last six months.    
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
         </div>
-    </a>
     </div>
-</div> -->
 
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog8.1.23.html">
-            <div id="blog8.1.23" class="box">
-                <h3>Musings from Vacation: The Importance of the Proper Ordering of Money</h3>
-                <p class="font">Last week my family and I had the wonderful opportunity to take a summer vacation up to the shores of Lake Michigan.  While the drive made for a bit of a challenging trip, we really had a wonderful time and I have always enjoyed the change of pace and perspective that vacation can bring.    
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog7.18.23.html">
-            <div id="blog7.18.23" class="box">
-                <h3>26</h3>
-                <p class="font">This week’s blog is a little different.  Today we celebrate a significant milestone for the blog.  It is the 26th blog since the launch of QED Wealth Solutions back in January.  In other words, I have written a weekly blog each week for the last six months.    
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog7.11.23.html">
-            <div id="blog7.11.23" class="box">
-                <h3>Elder Abuse Can Happen to Anyone, Are You Protecting Your Loved Ones?</h3>
-                <p class="font">You are back home celebrating the 4th of July holiday with your elderly mother.  She has always bought fireworks for the grandkids, but this year she is hesitant.  When pressed, she acknowledges that money is just a little bit tighter this year.  As far as you know, nothing has changed in her financial situation, so what gives?    
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog6.27.23.html">
-            <div id="blog6.27.23" class="box">
-                <h3>Four Retirement Rules of Thumb to Avoid</h3>
-                <p class="font">Rules of thumb can often provide guidance in the complex world of personal financial planning.  While almost all rules of thumb were originally based on a form of sound and practical financial advice, blindly following these common principles can lead to negative outcomes.  Whether it’s saving for retirement, budgeting for children, or managing your portfolio, these commonly accepted guidelines tend to oversimplify and if followed blindly could lead to negative outcomes.    
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog6.20.23.html">
-            <div id="blog6.20.23" class="box">
-                <h3>Dreaming: My Why I Started My Own Firm</h3>
-                <p class="font">Dreaming is one of my favorite things to do. Not dreams during sleep (though I do love my sleep), but dreams while awake. I think it’s part of what makes us human, and ultimately is directed to bringing us to heaven, but maybe more on that at another time. The way I see it there are three types of dreams.   
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog6.13.23.html">
-            <div id="blog6.13.23" class="box">
-                <h3>Four Options for Tax-Free Income in Retirement</h3>
-                <p class="font">Taxes are likely the single biggest expense you have in your lifetime.  While complete tax avoidance is nearly impossible for middle to high income earners during their earning years, with careful planning streams of tax-free income can be created in retirement.  By leveraging these options, you can significantly enhance your financial security all while lowering your tax bill at the same time.   
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog6.6.23.html">
-            <div id="blog6.6.23" class="box">
-                <h3>The Rebalancing Bonus: How Systematic Rebalancing Leads to Higher Risk-Adjusted Returns</h3>
-                <p class="font">When setting out to create your investment portfolio, maintaining a well-balanced portfolio is critical in helping to maintain your long-term financial goals.  I have given an introduction to the concept of asset allocation before, but stated simply, asset allocation is the process of dividing your investment portfolio among different asset classes in order to align it with your risk tolerance, time horizon, and investment goals.  Through this process, a target allocation is created as a plan to help you best achieve your goals.  Rebalancing your portfolio is the process utilized to adjust your portfolio over time as it drifts away from your target allocation.   
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog5.30.23.html">
-            <div id="blog5.30.23" class="box">
-                <h3>Practical Tips for Teaching Kids About Money</h3>
-                <p class="font">As many of you reading this blog probably know, I have six children who range in age from nine to nine months.  Obviously, our kids are still young, so the jury is still out on whether we have raised financially responsible children, however we have had some recent wins in the teaching money values department.  This is my attempt to share these wins and help to impart “wisdom” and inspire others on their journey of teaching good money handling and values on to the next generation.   
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog5.23.23.html">
-            <div id="blog5.23.23" class="box">
-                <h3>A Tale of Two Advisors</h3>
-                <p class="font">“It was the best of times, it was the worst of times..." <span="italics">A Tale of Two Cities</span> tries to encapsulate the stark contrast between Paris and London and the societal and political upheavals of the times.  The goal of this blog is to not reach society wide and grapple with the issues of the day, instead the goal of this blog is to go to a very specific level, that of choosing the correct financial advisor, and detail the implications of this decision on your happiness and financial wellbeing. 
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog5.16.23.html">
-            <div id="blog5.16.23" class="box">
-                <h3>Do I Have Enough to Retire: Part 2</h3>
-                <p class="font">Once we have a clear picture of what our needs and wants are in retirement we can start to match up income and expenses. Learn about different types of income that can help you evaluate if you have enough to retire.
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog5.9.23.html">
-            <div id="blog5.9.23" class="box">
-                <h3>Do I Have Enough to Retire: Part 1</h3>
-                <p class="font">Retirement is a time of life that many people look forward to.  After years of hard work, it’s time to relax and enjoy the fruits of your labor.  However, before you can truly enjoy retirement, it is important to answer the simple question that most keeps pre-retirees up at night: Do I have enough to retire?
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog5.1.23.html">
-            <div id="blog5.1.23" class="box">
-                <h3>FDIC, SIPC, and the State Guaranty Associations</h3>
-                <p class="font">With the recent failures of Silicon Valley Bank, Signature Bank, and most recently, First Republic Bank, consumers have been left to wonder about their own funds and the inherent safety nets built in to protect their assets.  The Federal Deposit Insurance Corporation (FDIC), Securities Investor Protection Corporation (SIPC), and State Guaranty Associations each play a critical role in protecting consumers’ assets in the event of a financial institution’s failure or insolvency.
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog4.25.23.html">
-            <div id="blog4.25.23" class="box">
-                <h3>The $3,000 Tax Loophole You Are Missing Out On</h3>
-                <p class="font">Often we hear about the tax loopholes that millionaires and billionaires are taking advantage of while the average Joe is left holding the bag.  This is generally a mischaracterization, as these millionaires and billionaires are subjected to the same tax code as the rest of us.  They simply take advantage of the tax code either by knowing and understanding tax code, or hiring advisors who do.  Today’s blog deals with one of those tax advantages that you may not have known about.
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog4.18.23.html">
-            <div id="blog4.18.23" class="box">
-                <h3>An Ode to Tax Day</h3>
-                <p class="font">With Tax Day falling on my blog release date, I decided to write something a little different.  While the aim of most of my blogs are educational, the primary goal of this is to be humorous.  I hope you enjoy.
-                     Click to read the poem.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog4.10.23.html">
-            <div id="blog4.10.23" class="box">
-                <h3>Asset Location vs Asset Allocation</h3>
-                <p class="font">Asset allocation and asset location are two very important aspects of your financial plan.  The goal of asset allocation is to divide your investments into different asset classes, creating a diversified portfolio that balances risk and return.  On the other hand, asset location refers to the specific accounts in which you hold your investments, such as taxable, Roth, or tax-deferred.
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog4.3.23.html">
-            <div id="blog4.3.23" class="box">
-                <h3>Roth Conversions: A Winning Retirement Planning Strategy</h3>
-                <p class="font">If you are like most people, you are probably confused by the concept of Roth conversions. In this blog post, we will take a look at what Roth conversions are, why they can be beneficial to your overall retirement plan, and how they work....
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog3.27.23.html">
-            <div id="blog3.27.23" class="box">
-                <h3>A-Shares: An Antiquated Investment</h3>
-                <p class="font">With all the noise that exists about investing, it is difficult to have any confidence in what the correct solutions are for your investments.  While there are almost limitless options regarding the different types of investments (some obviously better than others), this week we are focusing on Class A Share Mutual Funds...
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog3.20.23.html">
-            <div id="blog3.20.23" class="box">
-                <h3>How Much are You Paying for Financial Advice?</h3>
-                <p class="font"> A Harris poll in 2017 found that 60% of respondents had no idea how much in fees and costs was associated with the financial advice they were getting. This is for good reason as the financial industry has intentionally made it difficult to...
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog3.13.23.html">
-            <div id="blog3.13.23" class="box">
-                <h3>Silicon Valley Bank Closure Explained</h3>
-                <p class="font">From 2019 to 2021 SVB’s deposits tripled from $61.76 Billion to $189.2 Billion.  As I am sure you are aware, when you deposit money into a bank, they in turn take your money and invest through lending that money out.  However, in SVB’s case, the influx of cash from 2019-2021 happened so quickly that they were unable to grow their loan book quickly to appropriately reflect their cash positions.
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog3.6.23.html">
-            <div id="blog3.6.23" class="box">
-                <h3>We’re Not Raising Grass, We’re Raising Kids</h3>
-                <p class="font">There was some beautiful weather over the weekend.  Things are starting to warm up and signs of spring are starting to manifest themselves more and more.  Personally, I’m not much of a cold weather fan, so these signs of changing seasons have put a little extra spruce in my step.  Over the weekend I was able to bust out the ol’ lawn mower and cut my grass for the first time this year.
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog2.27.23.html">
-            <div id="blog2.27.23" class="box">
-                <h3>Procrastinators Unite...Tomorrow</h3>
-                <p class="font">Like many of you, I have been a victim of procrastination…ok, obviously victim is not the right word.  There have been times where I have struggled to prioritize my time appropriately.  I have been guilty of putting important things off until the last minute….and if you are wondering, yes, the idea for this blog came about due to some Grade A procrastinating on my part.  Today I will try and share a few strategies to help you deal with the procrastination that may have seeped into your financial life.
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog2.20.23.html">
-            <div id="blog2.20.23" class="box">
-                <h3>What is a QCD and Why Almost all Retirees Should be Familiar with It?</h3>
-                <p class="font">The second most important Q acronym (behind QED of course 😊) that all retirees should be familiar with is QCD.  QCD stands for Qualified Charitable Distribution.  It is a provision in the tax code that allows for distribution from your tax deferred retirement account to go directly to a qualified charity.  This may be the single biggest missed opportunity for tax savings as there are so many people that simply don’t know about it..
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog2.13.23.html">
-            <div id="blog2.13.23" class="box">
-                <h3>What This Year’s Superbowl Taught Me about Financial Goals</h3>
-                <p class="font">If you know me well, you probably know that I am a big Chiefs fan.  Watching Chiefs games on Sunday afternoons has been a family bonding activity from as far back as I can remember.  If you have been a Chiefs fan for long, or if you have followed the NFL closely over the years, then you know my Chiefs fandom has come with its share of heartache.  This makes their recent success all the sweeter.
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog2.6.23.html">
-            <div id="blog2.6.23" class="box">
-                <h3>How Secure 2.0 is Like an Ex-Girlfriend</h3>
-                <p class="font">Secure 2.0 was passed as part of the Omnibus bill at the end of 2022.  As I have gone through the different provisions, the best analogy that I have been able to come up with is that Secure 2.0 is like an ex-girlfriend; there are redeeming qualities, but I really wish it had just never happened.
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog1.30.23.html">
-            <div id="blog1.30.23" class="box">
-                <h3>Why Your Investments Should be Boring: Part 2</h3>
-                <p class="font">Why can’t I just pick one of the 10% of funds that has outperformed its benchmark? The truth is you can…if you can identify it.  While we certainly have back-tested data, mutual funds have very weak, if any, levels of correlation from year to year.  In other words, how a fund performs in one year is in no way a predictor of how it will perform in future years.  This ultimately leads to the conclusion that trying to choose the fund that will outperform is a fool’s errand.
-                     Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div> 
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog1.23.23.html">
-            <div id="blog1.23.23" class="box">
-                <h3>Why Your Investments Should be Boring: Part 1</h3>
-                <p class="font">January 1st of 2008 commenced one of the most exciting bets of this century (at least to us finance nerds 😊).  “The Bet” pitted Warren Buffet, arguably the world’s most successful investor against Protégé Partners LLC, a hedge fund based out of New York City. Click to continue reading.</p>
-            </div>
-        </a>
-    </div>
-</div> 
-<div class="row">
-    <div class="col-12">
-        <a href="blogs/blog1.13.23.html">
-        <div id="blog1.13.23" class="box mb-5">
-            <h3>Why I Started My Own Firm</h3>
-            <p class="font">From the outside, starting my own independent financial planning firm may look a little crazy...and maybe it is. Getting set up for your own Registered Investment Advisory (RIA) is not for the faint of heart. You submit yourself to background checks, pay consultants thousands of dollars to help you navigate the complex registration process, create multiple business structures, and in the process turn your normal day to day on its head.  And this is just to get to day one of the firm.  Click to continue reading.</p>
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog7.11.23.html">
+                <div id="blog7.11.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Retirement</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Elder Abuse Can Happen to Anyone, Are You Protecting Your Loved Ones?</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">You are back home celebrating the 4th of July holiday with your elderly mother.  She has always bought fireworks for the grandkids, but this year she is hesitant.  When pressed, she acknowledges that money is just a little bit tighter this year.  As far as you know, nothing has changed in her financial situation, so what gives?    
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
         </div>
-    </a>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog6.27.23.html">
+                <div id="blog6.27.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Retirement</div>
+                                <div class="tag">Investing</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Four Retirement Rules of Thumb to Avoid</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">Rules of thumb can often provide guidance in the complex world of personal financial planning.  While almost all rules of thumb were originally based on a form of sound and practical financial advice, blindly following these common principles can lead to negative outcomes.  Whether it’s saving for retirement, budgeting for children, or managing your portfolio, these commonly accepted guidelines tend to oversimplify and if followed blindly could lead to negative outcomes.    
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog6.20.23.html">
+                <div id="blog6.20.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Philosophy of Money</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Dreaming: My Why I Started My Own Firm</h3>
+                    <h5>Liz Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">Dreaming is one of my favorite things to do. Not dreams during sleep (though I do love my sleep), but dreams while awake. I think it’s part of what makes us human, and ultimately is directed to bringing us to heaven, but maybe more on that at another time. The way I see it there are three types of dreams.   
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog6.13.23.html">
+                <div id="blog6.13.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Retirement</div>
+                                <div class="tag">Tax Planning</div>
+                                <div class="tag">Investing</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Four Options for Tax-Free Income in Retirement</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">Taxes are likely the single biggest expense you have in your lifetime.  While complete tax avoidance is nearly impossible for middle to high income earners during their earning years, with careful planning streams of tax-free income can be created in retirement.  By leveraging these options, you can significantly enhance your financial security all while lowering your tax bill at the same time.   
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog6.6.23.html">
+                <div id="blog6.6.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Investing</div>
+                                <div class="tag">Retirement</div>
+                                <div class="tag">Tax Planning</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>The Rebalancing Bonus: How Systematic Rebalancing Leads to Higher Risk-Adjusted Returns</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">When setting out to create your investment portfolio, maintaining a well-balanced portfolio is critical in helping to maintain your long-term financial goals.  I have given an introduction to the concept of asset allocation before, but stated simply, asset allocation is the process of dividing your investment portfolio among different asset classes in order to align it with your risk tolerance, time horizon, and investment goals.  Through this process, a target allocation is created as a plan to help you best achieve your goals.  Rebalancing your portfolio is the process utilized to adjust your portfolio over time as it drifts away from your target allocation.   
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog5.30.23.html">
+                <div id="blog5.30.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Money and Kids</div>
+                                <div class="tag">Philosophy of Money</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Practical Tips for Teaching Kids About Money</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">As many of you reading this blog probably know, I have six children who range in age from nine to nine months.  Obviously, our kids are still young, so the jury is still out on whether we have raised financially responsible children, however we have had some recent wins in the teaching money values department.  This is my attempt to share these wins and help to impart “wisdom” and inspire others on their journey of teaching good money handling and values on to the next generation.   
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog5.23.23.html">
+                <div id="blog5.23.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Fees</div>
+                                <div class="tag">Investing</div>
+                                <div class="tag">Retirement</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>A Tale of Two Advisors</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">“It was the best of times, it was the worst of times..." </p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog5.16.23.html">
+                <div id="blog5.16.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Retirement</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Do I Have Enough to Retire: Part 2</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">Once we have a clear picture of what our needs and wants are in retirement we can start to match up income and expenses. Learn about different types of income that can help you evaluate if you have enough to retire.
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog5.9.23.html">
+                <div id="blog5.9.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Retirement</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Do I Have Enough to Retire: Part 1</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">Retirement is a time of life that many people look forward to.  After years of hard work, it’s time to relax and enjoy the fruits of your labor.  However, before you can truly enjoy retirement, it is important to answer the simple question that most keeps pre-retirees up at night: Do I have enough to retire?
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog5.1.23.html">
+                <div id="blog5.1.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Investing</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>FDIC, SIPC, and the State Guaranty Associations</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">With the recent failures of Silicon Valley Bank, Signature Bank, and most recently, First Republic Bank, consumers have been left to wonder about their own funds and the inherent safety nets built in to protect their assets.  The Federal Deposit Insurance Corporation (FDIC), Securities Investor Protection Corporation (SIPC), and State Guaranty Associations each play a critical role in protecting consumers’ assets in the event of a financial institution’s failure or insolvency.
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog4.25.23.html">
+                <div id="blog4.25.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Investing</div>
+                                <div class="tag">Tax Planning</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>The $3,000 Tax Loophole You Are Missing Out On</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">Often we hear about the tax loopholes that millionaires and billionaires are taking advantage of while the average Joe is left holding the bag.  This is generally a mischaracterization, as these millionaires and billionaires are subjected to the same tax code as the rest of us.  They simply take advantage of the tax code either by knowing and understanding tax code, or hiring advisors who do.  Today’s blog deals with one of those tax advantages that you may not have known about.
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog4.18.23.html">
+                <div id="blog4.18.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Tax Planning</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>An Ode to Tax Day</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">With Tax Day falling on my blog release date, I decided to write something a little different.  While the aim of most of my blogs are educational, the primary goal of this is to be humorous.  I hope you enjoy.
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog4.10.23.html">
+                <div id="blog4.10.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Investing</div>
+                                <div class="tag">Retirement</div>
+                                <div class="tag">Tax Planning</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Asset Location vs Asset Allocation</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">Asset allocation and asset location are two very important aspects of your financial plan.  The goal of asset allocation is to divide your investments into different asset classes, creating a diversified portfolio that balances risk and return.  On the other hand, asset location refers to the specific accounts in which you hold your investments, such as taxable, Roth, or tax-deferred.
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog4.3.23.html">
+                <div id="blog4.3.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Retirement</div>
+                                <div class="tag">Tax Planning</div>
+                                <div class="tag">Investing</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Roth Conversions: A Winning Retirement Planning Strategy</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">If you are like most people, you are probably confused by the concept of Roth conversions. In this blog post, we will take a look at what Roth conversions are, why they can be beneficial to your overall retirement plan, and how they work....
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog3.27.23.html">
+                <div id="blog3.27.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Investing</div>
+                                <div class="tag">Fees</div>
+                                <div class="tag">Retirement</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>A-Shares: An Antiquated Investment</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">With all the noise that exists about investing, it is difficult to have any confidence in what the correct solutions are for your investments.  While there are almost limitless options regarding the different types of investments (some obviously better than others), this week we are focusing on Class A Share Mutual Funds...
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog3.20.23.html">
+                <div id="blog3.20.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Investing</div>
+                                <div class="tag">Fees</div>
+                                <div class="tag">Retirement</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>How Much are You Paying for Financial Advice?</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font"> A Harris poll in 2017 found that 60% of respondents had no idea how much in fees and costs was associated with the financial advice they were getting. This is for good reason as the financial industry has intentionally made it difficult to...
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog3.13.23.html">
+                <div id="blog3.13.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Current Events</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Silicon Valley Bank Closure Explained</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">From 2019 to 2021 SVB’s deposits tripled from $61.76 Billion to $189.2 Billion.  As I am sure you are aware, when you deposit money into a bank, they in turn take your money and invest through lending that money out.  However, in SVB’s case, the influx of cash from 2019-2021 happened so quickly that they were unable to grow their loan book quickly to appropriately reflect their cash positions.
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog3.6.23.html">
+                <div id="blog3.6.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Money and Kids</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>We’re Not Raising Grass, We’re Raising Kids</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">There was some beautiful weather over the weekend.  Things are starting to warm up and signs of spring are starting to manifest themselves more and more.  Personally, I’m not much of a cold weather fan, so these signs of changing seasons have put a little extra spruce in my step.  Over the weekend I was able to bust out the ol’ lawn mower and cut my grass for the first time this year.
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog2.27.23.html">
+                <div id="blog2.27.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Retirement</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Procrastinators Unite...Tomorrow</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">Like many of you, I have been a victim of procrastination…ok, obviously victim is not the right word.  There have been times where I have struggled to prioritize my time appropriately.  I have been guilty of putting important things off until the last minute….and if you are wondering, yes, the idea for this blog came about due to some Grade A procrastinating on my part.  Today I will try and share a few strategies to help you deal with the procrastination that may have seeped into your financial life.
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog2.20.23.html">
+                <div id="blog2.20.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Retirement</div>
+                                <div class="tag">Tax Planning</div>
+                                <div class="tag">Charitable Giving</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>What is a QCD and Why Almost all Retirees Should be Familiar with It?</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">The second most important Q acronym (behind QED of course 😊) that all retirees should be familiar with is QCD.  QCD stands for Qualified Charitable Distribution.  It is a provision in the tax code that allows for distribution from your tax deferred retirement account to go directly to a qualified charity.  This may be the single biggest missed opportunity for tax savings as there are so many people that simply don’t know about it..
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog2.13.23.html">
+                <div id="blog2.13.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Current Events</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>What This Year’s Superbowl Taught Me about Financial Goals</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">If you know me well, you probably know that I am a big Chiefs fan.  Watching Chiefs games on Sunday afternoons has been a family bonding activity from as far back as I can remember.  If you have been a Chiefs fan for long, or if you have followed the NFL closely over the years, then you know my Chiefs fandom has come with its share of heartache.  This makes their recent success all the sweeter.
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog2.6.23.html">
+                <div id="blog2.6.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Retirement</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>How Secure 2.0 is Like an Ex-Girlfriend</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">Secure 2.0 was passed as part of the Omnibus bill at the end of 2022.  As I have gone through the different provisions, the best analogy that I have been able to come up with is that Secure 2.0 is like an ex-girlfriend; there are redeeming qualities, but I really wish it had just never happened.
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog1.30.23.html">
+                <div id="blog1.30.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Investing</div>
+                                <div class="tag">Philosophy of Money</div>
+                                <div class="tag">Fees</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Why Your Investments Should be Boring: Part 2</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">Why can’t I just pick one of the 10% of funds that has outperformed its benchmark? The truth is you can…if you can identify it.  While we certainly have back-tested data, mutual funds have very weak, if any, levels of correlation from year to year.  In other words, how a fund performs in one year is in no way a predictor of how it will perform in future years.  This ultimately leads to the conclusion that trying to choose the fund that will outperform is a fool’s errand.
+</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog1.23.23.html">
+                <div id="blog1.23.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Investing</div>
+                                <div class="tag">Philosophy of Money</div>
+                                <div class="tag">Fees</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Why Your Investments Should be Boring: Part 1</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">January 1st of 2008 commenced one of the most exciting bets of this century (at least to us finance nerds 😊).  “The Bet” pitted Warren Buffet, arguably the world’s most successful investor against Protégé Partners LLC, a hedge fund based out of New York City. Click to continue reading.</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+ <div class="grid-item">
+        <div class="content">
+            <a href="blogs/blog1.13.23.html">
+                <div id="blog1.13.23" class="blogbox mb-5">
+                    <div class="">
+                        <div class="taglist">
+                                <div class="tag">Philosophy of Money</div>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Why I Started My Own Firm</h3>
+                    <h5>Tyler Meyer</h5>
+                    <br>
+                    <span class="paragraph">
+                        <p class="font">From the outside, starting my own independent financial planning firm may look a little crazy...and maybe it is. Getting set up for your own Registered Investment Advisory (RIA) is not for the faint of heart. You submit yourself to background checks, pay consultants thousands of dollars to help you navigate the complex registration process, create multiple business structures, and in the process turn your normal day to day on its head.  And this is just to get to day one of the firm.  Click to continue reading.</p>
+                    </span>
+                    <hr>
+                    <p class="cta">Read More ></p>
+                </div>
+            </a>
+        </div>
     </div>
 </div>
-</blogs>
  
 
         <!--footer-->
@@ -436,33 +802,22 @@
         
         
                 <!-- Begin Mailchimp Signup Form -->
-                <div class="col-12 text-center email-signup">
-        <div id="mc_embed_signup">
-            <form action="https://qedwealthsolutions.us10.list-manage.com/subscribe/post?u=63ea0c4fd1c0b3293a9ae6339&amp;id=f703557b64&amp;f_id=00d8cce5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                <h2 class="mb-2">Get our Monthly Newsletter</h2>
-        <div class="mc-field-group text-center">
-            <div class="email-box text-center">
-                <label for="mce-EMAIL">Email Address:</span></label>
-                <input type="email" value="" name="EMAIL" class="required email mb-3 border" id="mce-EMAIL" required>
-            </div>
-                        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
-        </div>
-                        <div id="mce-responses" class="clear foot">
-                                        <div class="response" id="mce-error-response" style="display:none"></div>
-                                        <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_63ea0c4fd1c0b3293a9ae6339_f703557b64" tabindex="-1" value=""></div>
-                <div class="optionalParent">
-                    <div class="clear foot">
-                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                    </div>
+                <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+                <form action="https://app.convertkit.com/forms/5448846/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="5448846" data-uid="ecca8cb252" data-format="inline" data-version="5" data-options="{&quot;settings&quot;:{&quot;after_subscribe&quot;:{&quot;action&quot;:&quot;message&quot;,&quot;success_message&quot;:&quot;Success! Now check your email to confirm your subscription.&quot;,&quot;redirect_url&quot;:&quot;&quot;},&quot;analytics&quot;:{&quot;google&quot;:null,&quot;fathom&quot;:null,&quot;facebook&quot;:null,&quot;segment&quot;:null,&quot;pinterest&quot;:null,&quot;sparkloop&quot;:null,&quot;googletagmanager&quot;:null},&quot;modal&quot;:{&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;powered_by&quot;:{&quot;show&quot;:true,&quot;url&quot;:&quot;https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic&quot;},&quot;recaptcha&quot;:{&quot;enabled&quot;:false},&quot;return_visitor&quot;:{&quot;action&quot;:&quot;show&quot;,&quot;custom_content&quot;:&quot;&quot;},&quot;slide_in&quot;:{&quot;display_in&quot;:&quot;bottom_right&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;sticky_bar&quot;:{&quot;display_in&quot;:&quot;top&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15}},&quot;version&quot;:&quot;5&quot;}" min-width="400 500 600 700 800"><div class="formkit-background"><div data-style="minimal"><div class="formkit-header" data-element="header">
+                    <h2>Join our monthly Newsletter</h2>
                 </div>
-            </div>
-        </form>
-        </div>
-        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-        <!--End mc_embed_signup-->
+                <div class="formkit-subheader" data-element="subheader">
+                    <p>Subscribe below to get monthly financial news straight to your inbox.</p>
+                </div>
+                <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert">
+
+                </ul>
+                <div data-element="fields" data-stacked="false" class="seva-fields formkit-fields"><div class="formkit-field"><input class="formkit-input email mb-3 border" name="email_address" aria-label="Email Address" placeholder="Email Address" required="" type="email"></div>
+                <button data-element="submit" class="button mt-3 mb-3"><div class="formkit-spinner"><div>
+                </div></div><span class="">Subscribe</span></button></div><div class="formkit-guarantee" data-element="guarantee">We won't send you spam. Unsubscribe at any time.</div>
+                    </div>
+                </form>
+                <!--End mc_embed_signup-->
         
         
         </div>
