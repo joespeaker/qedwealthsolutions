@@ -81,7 +81,7 @@ html, body{
     background-blend-mode: screen;
     background-size: cover;
     width: 100%;
-    height: 550px;
+    height: 600px;
 }
 .active {
     color:#31B2D1 !important;
