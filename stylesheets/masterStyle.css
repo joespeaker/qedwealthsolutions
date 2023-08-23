@@ -218,3 +218,7 @@ hr {
 .border:focus {
     outline: 2px solid #083E89 !important;
 }
+i.footer-icon {
+    font-size: 30px !important;
+    margin: 0 10px;
+}
