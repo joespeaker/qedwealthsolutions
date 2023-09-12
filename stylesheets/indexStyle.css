@@ -115,12 +115,14 @@ i {
 .cfpnimg {
     height: 100px;
     width: auto;
+
 }
 .cfpnimg img {
     height: 100%;
     width: auto;
     object-fit: cover;
     border-radius: 5px;
+    margin: 15px;
 }
 hr.blue {
     background-color: #083E89;
