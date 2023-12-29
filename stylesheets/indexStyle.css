@@ -40,6 +40,7 @@ html,body {
     font-size: 20px;
     font-weight: bold;
     transform: translate(0px, -120px);
+    transition: 0.3s;
 }
 .hero-button:hover{
     background-color: #31B2D1;
