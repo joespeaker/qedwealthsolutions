@@ -108,6 +108,12 @@ i {
 .hidden {
     z-index: -1;
 }
+.feat {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
 .cfpnp {
     font-size: 70px;
     line-height: 100px;
@@ -116,6 +122,23 @@ i {
     height: 100px;
     width: auto;
 
+}
+@media screen and (max-width: 511px){
+    .feat {
+        height: auto;
+    }
+    .cfpnimg {
+        height: 100px;
+        width: auto;
+        margin-bottom: 115px;
+    }
+    .cfpnimg a img {
+        height: 100px;
+        width: auto;
+        object-fit: cover;
+        border-radius: 5px;
+        margin: 15px;
+    }
 }
 .cfpnimg img {
     height: 100%;
