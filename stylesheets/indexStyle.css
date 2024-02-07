@@ -109,22 +109,29 @@ i {
 .hidden {
     z-index: -1;
 }
+.feat {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: fit-content;
+}
 .cfpnp {
     font-size: 70px;
     line-height: 100px;
 }
-.cfpnimg {
-    height: 100px;
-    width: auto;
-
-}
-.cfpnimg img {
+.f-item a img {
     height: 100%;
-    width: auto;
+    width: 100%;
     object-fit: cover;
     border-radius: 5px;
-    margin: 15px;
 }
+.logos {
+    height: auto;
+}
+.f-item {
+    height: 100px;
+}
+
 hr.blue {
     background-color: #083E89;
     border: 1px solid #083E89 !important;
